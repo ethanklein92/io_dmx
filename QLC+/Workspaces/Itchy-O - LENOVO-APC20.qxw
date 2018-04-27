@@ -11861,6 +11861,183 @@
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">59</Step>
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="458">791</Step>
   </Function>
+  <Function ID="795" Type="Script" Name="00 START" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Command>%2F%2F%20CLEAR%20</Command>
+   <Command>-</Command>
+   <Command>wait%3A10ms</Command>
+   <Command></Command>
+   <Command>%2F%2F%20START%20SCRIPT</Command>
+   <Command>startfunction%3A797%20%2F%2F%20MONKEY%20FIST%20NODE%20BG</Command>
+   <Command>startfunction%3A796%20%2F%2F%20MONKEY%20FIST%20STAR%20BG</Command>
+   <Command></Command>
+   <Command>wait%3A5m</Command>
+  </Function>
+  <Function ID="796" Type="Scene" Name="MONKEY FIST STAR BG" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,255,4,127</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,127</FixtureVal>
+   <FixtureVal ID="1">0,255,1,127</FixtureVal>
+   <FixtureVal ID="2">0,255,1,127</FixtureVal>
+   <FixtureVal ID="3">0,255,1,127</FixtureVal>
+   <FixtureVal ID="4">0,255,1,127</FixtureVal>
+   <FixtureVal ID="5">0,255,1,127</FixtureVal>
+   <FixtureVal ID="6">0,255,1,127</FixtureVal>
+  </Function>
+  <Function ID="797" Type="Scene" Name="MONKEY FIST NODE BG" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>11,31,0,31</ChannelGroupsVal>
+   <FixtureVal ID="11">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31,106,31,109,31,112,31,115,31,118,31,121,31,124,31,127,31,130,31,133,31,136,31,139,31,142,31,145,31,148,31,151,31,154,31,157,31,160,31,163,31,166,31,169,31,172,31,175,31,178,31,181,31,184,31,187,31,190,31,193,31,196,31,199,31,202,31,205,31,208,31,211,31,214,31,217,31,220,31,223,31,226,31,229,31,232,31,235,31,238,31,241,31,244,31,247,31,250,31,253,31,256,31,259,31,262,31,265,31,268,31</FixtureVal>
+   <FixtureVal ID="12">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31,106,31,109,31,112,31,115,31,118,31,121,31,124,31,127,31,130,31,133,31,136,31,139,31,142,31,145,31,148,31,151,31,154,31,157,31,160,31,163,31,166,31,169,31,172,31,175,31,178,31,181,31,184,31,187,31,190,31,193,31,196,31,199,31,202,31,205,31,208,31,211,31,214,31,217,31,220,31,223,31,226,31,229,31,232,31,235,31,238,31,241,31,244,31,247,31,250,31,253,31,256,31,259,31,262,31,265,31,268,31</FixtureVal>
+   <FixtureVal ID="13">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31,106,31,109,31,112,31,115,31,118,31,121,31,124,31,127,31,130,31,133,31,136,31,139,31,142,31,145,31,148,31,151,31,154,31,157,31,160,31,163,31,166,31,169,31,172,31,175,31,178,31,181,31,184,31,187,31,190,31,193,31,196,31,199,31,202,31,205,31,208,31,211,31,214,31,217,31,220,31,223,31,226,31,229,31,232,31,235,31,238,31,241,31,244,31,247,31,250,31,253,31,256,31,259,31,262,31,265,31,268,31</FixtureVal>
+   <FixtureVal ID="20">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31,106,31,109,31,112,31,115,31,118,31,121,31,124,31,127,31,130,31,133,31,136,31,139,31,142,31,145,31,148,31,151,31,154,31,157,31,160,31,163,31,166,31,169,31,172,31,175,31,178,31,181,31,184,31,187,31,190,31,193,31,196,31,199,31,202,31,205,31,208,31,211,31,214,31,217,31,220,31,223,31,226,31,229,31,232,31,235,31,238,31,241,31,244,31,247,31,250,31,253,31,256,31,259,31,262,31,265,31,268,31</FixtureVal>
+   <FixtureVal ID="21">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31,106,31,109,31,112,31,115,31,118,31,121,31,124,31,127,31,130,31,133,31,136,31,139,31,142,31,145,31,148,31,151,31,154,31,157,31,160,31,163,31,166,31,169,31,172,31,175,31,178,31,181,31,184,31,187,31,190,31,193,31,196,31,199,31,202,31,205,31,208,31,211,31,214,31,217,31,220,31,223,31,226,31,229,31,232,31,235,31,238,31,241,31,244,31,247,31,250,31,253,31,256,31,259,31,262,31,265,31,268,31</FixtureVal>
+   <FixtureVal ID="9">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31</FixtureVal>
+   <FixtureVal ID="10">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31</FixtureVal>
+   <FixtureVal ID="14">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31</FixtureVal>
+   <FixtureVal ID="15">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31</FixtureVal>
+   <FixtureVal ID="16">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31</FixtureVal>
+   <FixtureVal ID="17">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31</FixtureVal>
+   <FixtureVal ID="18">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31</FixtureVal>
+   <FixtureVal ID="19">1,31,4,31,7,31,10,31,13,31,16,31,19,31,22,31,25,31,28,31,31,31,34,31,37,31,40,31,43,31,46,31,49,31,52,31,55,31,58,31,61,31,64,31,67,31,70,31,73,31,76,31,79,31,82,31,85,31,88,31,91,31,94,31,97,31,100,31,103,31</FixtureVal>
+  </Function>
+  <Function ID="798" Type="Script" Name="01 MONK CHANT" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Command>%2F%2F%20CLEAR%20</Command>
+   <Command>stopfunction%3A795%20%2F%2F%2000%20START</Command>
+   <Command>wait%3A10ms</Command>
+   <Command></Command>
+   <Command>%2F%2F%20START%20SCRIPT</Command>
+   <Command>startfunction%3A797%20%2F%2F%20MONKEY%20FIST%20NODE%20BG</Command>
+   <Command>startfunction%3A796%20%2F%2F%20MONKEY%20FIST%20STAR%20BG</Command>
+   <Command>startfunction%3A799%20%2F%2F%20MONKEY%20FIST%20SHIMMER%20ALL</Command>
+   <Command></Command>
+   <Command>wait%3A5m</Command>
+  </Function>
+  <Function ID="799" Type="RGBMatrix" Name="MONKEY FIST SHIMMER ALL" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="196" FadeOut="196" Duration="196"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Script">3D Starfield</Algorithm>
+   <DimmerControl>1</DimmerControl>
+   <MonoColor>4294901760</MonoColor>
+   <EndColor>4294901760</EndColor>
+   <FixtureGroup>10</FixtureGroup>
+   <Property Name="MultiColor" Value="No"/>
+   <Property Name="StarsAmount" Value="100"/>
+  </Function>
+  <Function ID="800" Type="Scene" Name="MONKEY FIST NODE ALT 1" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,255</ChannelGroupsVal>
+   <FixtureVal ID="9">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="10">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="14">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="15">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="16">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="17">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="18">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="19">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+  </Function>
+  <Function ID="801" Type="Scene" Name="MONKEY FIST NODE ALT 2" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>11,255</ChannelGroupsVal>
+   <FixtureVal ID="11">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
+   <FixtureVal ID="12">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
+   <FixtureVal ID="13">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
+   <FixtureVal ID="20">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
+   <FixtureVal ID="21">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
+  </Function>
+  <Function ID="802" Type="Chaser" Name="MONKEY FIST NODE ALT" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="605" Duration="605"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">800</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">801</Step>
+  </Function>
+  <Function ID="803" Type="Scene" Name="MONKEY FIST STAR ALT 1" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,255,4,0</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0</FixtureVal>
+   <FixtureVal ID="6">0,255,1,255</FixtureVal>
+  </Function>
+  <Function ID="804" Type="Scene" Name="MONKEY FIST STAR ALT 2" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,255,4,0</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255</FixtureVal>
+   <FixtureVal ID="6">0,255,1,0</FixtureVal>
+  </Function>
+  <Function ID="805" Type="Chaser" Name="MONKEY FIST STAR ALT" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="605" Duration="605"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">803</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">804</Step>
+  </Function>
+  <Function ID="806" Type="Script" Name="03 GTR + BASS" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Command>%2F%2F%20CLEAR%20</Command>
+   <Command>stopfunction%3A798%20%2F%2F%2001%20MONK%20CHANT</Command>
+   <Command>wait%3A10ms</Command>
+   <Command></Command>
+   <Command>%2F%2F%20START%20SCRIPT</Command>
+   <Command>startfunction%3A797%20%2F%2F%20MONKEY%20FIST%20NODE%20BG</Command>
+   <Command>startfunction%3A796%20%2F%2F%20MONKEY%20FIST%20STAR%20BG</Command>
+   <Command>startfunction%3A802%20%2F%2F%20MONKEY%20FIST%20NODE%20ALT</Command>
+   <Command>startfunction%3A805%20%2F%2F%20MONKEY%20FIST%20STAR%20ALT</Command>
+   <Command></Command>
+   <Command></Command>
+   <Command>wait%3A5m</Command>
+  </Function>
+  <Function ID="807" Type="Scene" Name="MONKEY FIST RED BUMP" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>3,255,4,255,0,255,11,255</ChannelGroupsVal>
+   <FixtureVal ID="0">0,255,1,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255</FixtureVal>
+   <FixtureVal ID="6">0,255,1,255</FixtureVal>
+   <FixtureVal ID="9">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="10">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="14">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="15">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="16">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="17">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="18">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="19">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255</FixtureVal>
+   <FixtureVal ID="11">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
+   <FixtureVal ID="12">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
+   <FixtureVal ID="13">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
+   <FixtureVal ID="20">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
+   <FixtureVal ID="21">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
+  </Function>
+  <Function ID="808" Type="Chaser" Name="MONKEY FIST RED BUMP" Path="SONGS/17 MONKEY FIST">
+   <Speed FadeIn="0" FadeOut="605" Duration="605"/>
+   <Direction>Forward</Direction>
+   <RunOrder>SingleShot</RunOrder>
+   <SpeedModes FadeIn="PerStep" FadeOut="Common" Duration="PerStep"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">59</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="458">807</Step>
+  </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -11910,7 +12087,7 @@
     <ShowEnableButton>False</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <Multipage PagesNum="100" CurrentPage="17"/>
+    <Multipage PagesNum="100" CurrentPage="16"/>
     <Next>
      <Key>=</Key>
      <Input Universe="0" Channel="210"/>
@@ -30603,7 +30780,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="False" X="0" Y="40" Width="490" Height="600"/>
+     <WindowState Visible="True" X="0" Y="40" Width="490" Height="600"/>
      <AllowChildren>True</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>True</ShowHeader>
@@ -30618,7 +30795,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <WindowState Visible="False" X="10" Y="40" Width="470" Height="270"/>
+      <WindowState Visible="True" X="10" Y="40" Width="470" Height="270"/>
       <AllowChildren>False</AllowChildren>
       <AllowResize>False</AllowResize>
       <ShowHeader>False</ShowHeader>
@@ -30626,7 +30803,7 @@
       <Collapsed>False</Collapsed>
       <Disabled>False</Disabled>
       <Button Caption="START" ID="1535" Icon="">
-       <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
+       <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
@@ -30634,13 +30811,13 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="365"/>
+       <Function ID="795"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="181" LowerValue="2"/>
       </Button>
       <Button Caption="MONK CHANT (56)" ID="1536" Icon="">
-       <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
+       <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4278190080</ForegroundColor>
@@ -30648,13 +30825,13 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="367"/>
+       <Function ID="798"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="4277" LowerValue="10"/>
       </Button>
       <Button Caption="GTR + BASS   (36)" ID="1537" Icon="">
-       <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
+       <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4278190080</ForegroundColor>
@@ -30662,13 +30839,13 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="368"/>
+       <Function ID="806"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="8373" LowerValue="10"/>
       </Button>
       <Button Caption="4" ID="1538" Icon="">
-       <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
+       <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
@@ -30682,7 +30859,7 @@
        <Input Universe="0" Channel="12469"/>
       </Button>
       <Button Caption="5" ID="1539" Icon="">
-       <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
+       <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
@@ -30696,7 +30873,7 @@
        <Input Universe="0" Channel="16565"/>
       </Button>
       <Button Caption="6" ID="1540" Icon="">
-       <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
+       <WindowState Visible="True" X="260" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
@@ -30710,7 +30887,7 @@
        <Input Universe="0" Channel="20661"/>
       </Button>
       <Button Caption="7" ID="1541" Icon="">
-       <WindowState Visible="False" X="310" Y="10" Width="50" Height="50"/>
+       <WindowState Visible="True" X="310" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
@@ -30724,7 +30901,7 @@
        <Input Universe="0" Channel="24757"/>
       </Button>
       <Button Caption="8" ID="1542" Icon="">
-       <WindowState Visible="False" X="360" Y="10" Width="50" Height="50"/>
+       <WindowState Visible="True" X="360" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
         <ForegroundColor>4294967295</ForegroundColor>
@@ -30738,1152 +30915,6 @@
        <Input Universe="0" Channel="28853"/>
       </Button>
       <Button Caption="NEXT" ID="1543" Icon="">
-       <WindowState Visible="False" X="415" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="342"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="210"/>
-      </Button>
-      <Button Caption="9" ID="1544" Icon="">
-       <WindowState Visible="False" X="10" Y="60" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="375"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="182"/>
-      </Button>
-      <Button Caption="10" ID="1545" Icon="">
-       <WindowState Visible="False" X="60" Y="60" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="412"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="4278"/>
-      </Button>
-      <Button Caption="11" ID="1546" Icon="">
-       <WindowState Visible="False" X="110" Y="60" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="377"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="8374"/>
-      </Button>
-      <Button Caption="12" ID="1547" Icon="">
-       <WindowState Visible="False" X="160" Y="60" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="378"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="12470"/>
-      </Button>
-      <Button Caption="13" ID="1548" Icon="">
-       <WindowState Visible="False" X="210" Y="60" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="379"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="16566"/>
-      </Button>
-      <Button Caption="14" ID="1549" Icon="">
-       <WindowState Visible="False" X="260" Y="60" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="380"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="20662"/>
-      </Button>
-      <Button Caption="15" ID="1550" Icon="">
-       <WindowState Visible="False" X="310" Y="60" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="381"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="24758"/>
-      </Button>
-      <Button Caption="16" ID="1551" Icon="">
-       <WindowState Visible="False" X="360" Y="60" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="382"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="28854"/>
-      </Button>
-      <Button Caption="PREV" ID="1552" Icon="">
-       <WindowState Visible="False" X="415" Y="60" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="343"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="211"/>
-      </Button>
-      <Button Caption="17" ID="1553" Icon="">
-       <WindowState Visible="False" X="10" Y="110" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="384"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="183"/>
-      </Button>
-      <Button Caption="18" ID="1554" Icon="">
-       <WindowState Visible="False" X="60" Y="110" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="385"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="4279"/>
-      </Button>
-      <Button Caption="19" ID="1555" Icon="">
-       <WindowState Visible="False" X="110" Y="110" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="386"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="8375"/>
-      </Button>
-      <Button Caption="20" ID="1556" Icon="">
-       <WindowState Visible="False" X="160" Y="110" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="387"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="12471"/>
-      </Button>
-      <Button Caption="21" ID="1557" Icon="">
-       <WindowState Visible="False" X="210" Y="110" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="390"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="16567"/>
-      </Button>
-      <Button Caption="22" ID="1558" Icon="">
-       <WindowState Visible="False" X="260" Y="110" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="391"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="20663"/>
-      </Button>
-      <Button Caption="23" ID="1559" Icon="">
-       <WindowState Visible="False" X="310" Y="110" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="392"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="24759"/>
-      </Button>
-      <Button Caption="24" ID="1560" Icon="">
-       <WindowState Visible="False" X="360" Y="110" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="393"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="28855"/>
-      </Button>
-      <Button Caption="25" ID="1561" Icon="">
-       <WindowState Visible="False" X="10" Y="160" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="394"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="184"/>
-      </Button>
-      <Button Caption="26" ID="1562" Icon="">
-       <WindowState Visible="False" X="60" Y="160" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="396"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="4280"/>
-      </Button>
-      <Button Caption="27" ID="1563" Icon="">
-       <WindowState Visible="False" X="110" Y="160" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="397"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="8376"/>
-      </Button>
-      <Button Caption="28" ID="1564" Icon="">
-       <WindowState Visible="False" X="160" Y="160" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="398"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="12472"/>
-      </Button>
-      <Button Caption="29" ID="1565" Icon="">
-       <WindowState Visible="False" X="210" Y="160" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="399"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="16568"/>
-      </Button>
-      <Button Caption="30" ID="1566" Icon="">
-       <WindowState Visible="False" X="260" Y="160" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="413"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="20664"/>
-      </Button>
-      <Button Caption="31" ID="1567" Icon="">
-       <WindowState Visible="False" X="310" Y="160" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="401"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="24760"/>
-      </Button>
-      <Button Caption="32" ID="1568" Icon="">
-       <WindowState Visible="False" X="360" Y="160" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="400"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="28856"/>
-      </Button>
-      <Button Caption="33" ID="1569" Icon="">
-       <WindowState Visible="False" X="10" Y="210" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="402"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="185"/>
-      </Button>
-      <Button Caption="34" ID="1570" Icon="">
-       <WindowState Visible="False" X="60" Y="210" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="405"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="4281"/>
-      </Button>
-      <Button Caption="35" ID="1571" Icon="">
-       <WindowState Visible="False" X="110" Y="210" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="406"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="8377"/>
-      </Button>
-      <Button Caption="36" ID="1572" Icon="">
-       <WindowState Visible="False" X="160" Y="210" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="407"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="12473"/>
-      </Button>
-      <Button Caption="37" ID="1573" Icon="">
-       <WindowState Visible="False" X="210" Y="210" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="408"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="16569"/>
-      </Button>
-      <Button Caption="38" ID="1574" Icon="">
-       <WindowState Visible="False" X="260" Y="210" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="409"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="20665"/>
-      </Button>
-      <Button Caption="39" ID="1575" Icon="">
-       <WindowState Visible="False" X="310" Y="210" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="410"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="24761"/>
-      </Button>
-      <Button Caption="40" ID="1576" Icon="">
-       <WindowState Visible="False" X="360" Y="210" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="411"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="28857"/>
-      </Button>
-      <Button Caption="." ID="1577" Icon="">
-       <WindowState Visible="False" X="415" Y="210" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="4294967295"/>
-       <Action>Blackout</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="214" UpperValue="7"/>
-      </Button>
-     </Frame>
-     <Button Caption="-" ID="1589" Icon="">
-      <WindowState Visible="False" X="20" Y="380" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="364"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="178"/>
-     </Button>
-     <Button Caption="-" ID="1590" Icon="">
-      <WindowState Visible="False" X="70" Y="380" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="432"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="4274"/>
-     </Button>
-     <Button Caption="-" ID="1591" Icon="">
-      <WindowState Visible="False" X="120" Y="380" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="433"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="8370"/>
-     </Button>
-     <Button Caption="-" ID="1592" Icon="">
-      <WindowState Visible="False" X="170" Y="380" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="434"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="12466"/>
-     </Button>
-     <Button Caption="-" ID="1593" Icon="">
-      <WindowState Visible="False" X="220" Y="380" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="435"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="16562"/>
-     </Button>
-     <Button Caption="-" ID="1594" Icon="">
-      <WindowState Visible="False" X="270" Y="380" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="436"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="20658"/>
-     </Button>
-     <Button Caption="-" ID="1595" Icon="">
-      <WindowState Visible="False" X="320" Y="380" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="437"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="24754"/>
-     </Button>
-     <Button Caption="-" ID="1596" Icon="">
-      <WindowState Visible="False" X="370" Y="380" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="438"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="28850"/>
-     </Button>
-     <Button Caption="-" ID="1597" Icon="">
-      <WindowState Visible="False" X="20" Y="410" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="439"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="177"/>
-     </Button>
-     <Button Caption="-" ID="1598" Icon="">
-      <WindowState Visible="False" X="70" Y="410" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="440"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="4273"/>
-     </Button>
-     <Button Caption="-" ID="1599" Icon="">
-      <WindowState Visible="False" X="120" Y="410" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="441"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="8369"/>
-     </Button>
-     <Button Caption="-" ID="1600" Icon="">
-      <WindowState Visible="False" X="170" Y="410" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="442"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="12465"/>
-     </Button>
-     <Button Caption="-" ID="1601" Icon="">
-      <WindowState Visible="False" X="220" Y="410" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="443"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="16561"/>
-     </Button>
-     <Button Caption="-" ID="1602" Icon="">
-      <WindowState Visible="False" X="270" Y="410" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="444"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="20657"/>
-     </Button>
-     <Button Caption="-" ID="1603" Icon="">
-      <WindowState Visible="False" X="320" Y="410" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="445"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="24753"/>
-     </Button>
-     <Button Caption="-" ID="1604" Icon="">
-      <WindowState Visible="False" X="370" Y="410" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="446"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="28849"/>
-     </Button>
-     <Button Caption="-" ID="1605" Icon="">
-      <WindowState Visible="False" X="20" Y="440" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="447"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="176"/>
-     </Button>
-     <Button Caption="-" ID="1606" Icon="">
-      <WindowState Visible="False" X="70" Y="440" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="448"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="4272"/>
-     </Button>
-     <Button Caption="-" ID="1607" Icon="">
-      <WindowState Visible="False" X="120" Y="440" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="449"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="8368"/>
-     </Button>
-     <Button Caption="-" ID="1608" Icon="">
-      <WindowState Visible="False" X="170" Y="440" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="450"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="12464"/>
-     </Button>
-     <Button Caption="-" ID="1609" Icon="">
-      <WindowState Visible="False" X="220" Y="440" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="451"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="16560"/>
-     </Button>
-     <Button Caption="-" ID="1610" Icon="">
-      <WindowState Visible="False" X="270" Y="440" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="452"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="20656"/>
-     </Button>
-     <Button Caption="-" ID="1611" Icon="">
-      <WindowState Visible="False" X="320" Y="440" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="454"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="24752"/>
-     </Button>
-     <Button Caption="-" ID="1612" Icon="">
-      <WindowState Visible="False" X="370" Y="440" Width="50" Height="25"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
-      </Appearance>
-      <Function ID="455"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="28848"/>
-     </Button>
-     <Slider Caption="-" ID="1613" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="70" Y="470" Width="50" Height="120"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
-      </Appearance>
-      <Input Universe="0" Channel="4103"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="-" ID="1614" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="20" Y="470" Width="50" Height="120"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
-      </Appearance>
-      <Input Universe="0" Channel="7"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="-" ID="1615" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="120" Y="470" Width="50" Height="120"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
-      </Appearance>
-      <Input Universe="0" Channel="8199"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="-" ID="1616" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="170" Y="470" Width="50" Height="120"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
-      </Appearance>
-      <Input Universe="0" Channel="12295"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="-" ID="1617" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="220" Y="470" Width="50" Height="120"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
-      </Appearance>
-      <Input Universe="0" Channel="16391"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="-" ID="1618" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="270" Y="470" Width="50" Height="120"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
-      </Appearance>
-      <Input Universe="0" Channel="20487"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="-" ID="1619" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="320" Y="470" Width="50" Height="120"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
-      </Appearance>
-      <Input Universe="0" Channel="24583"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="-" ID="1620" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="370" Y="470" Width="50" Height="120"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
-      </Appearance>
-      <Input Universe="0" Channel="28679"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <Slider Caption="GM" ID="1621" WidgetStyle="Slider" InvertedAppearance="false">
-      <WindowState Visible="False" X="425" Y="470" Width="50" Height="120"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4294901760</ForegroundColor>
-       <BackgroundColor>4278190080</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
-      </Appearance>
-      <Input Universe="0" Channel="14"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
-      <Level LowLimit="0" HighLimit="255" Value="0"/>
-      <Playback>
-       <Function>4294967295</Function>
-      </Playback>
-     </Slider>
-     <SpeedDial Caption="FAST" ID="1622">
-      <WindowState Visible="False" X="425" Y="150" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4279834650</ForegroundColor>
-       <BackgroundColor>4294967295</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Visibility>4</Visibility>
-      <AbsoluteValue Minimum="0" Maximum="10000"/>
-      <Tap>
-       <Input Universe="0" Channel="212"/>
-      </Tap>
-      <Time>479</Time>
-     </SpeedDial>
-     <SpeedDial Caption="REG" ID="1623">
-      <WindowState Visible="False" X="425" Y="200" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>4279834650</ForegroundColor>
-       <BackgroundColor>4294967295</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Visibility>4</Visibility>
-      <AbsoluteValue Minimum="0" Maximum="10000"/>
-      <Tap>
-       <Input Universe="0" Channel="213"/>
-      </Tap>
-      <Time>180</Time>
-     </SpeedDial>
-    </Frame>
-    <Frame Caption="APC20" ID="1714" Page="17">
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <WindowState Visible="True" X="0" Y="40" Width="490" Height="600"/>
-     <AllowChildren>True</AllowChildren>
-     <AllowResize>True</AllowResize>
-     <ShowHeader>True</ShowHeader>
-     <ShowEnableButton>True</ShowEnableButton>
-     <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
-     <Frame Caption="" ID="1668">
-      <Appearance>
-       <FrameStyle>Sunken</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <WindowState Visible="True" X="10" Y="40" Width="470" Height="270"/>
-      <AllowChildren>False</AllowChildren>
-      <AllowResize>False</AllowResize>
-      <ShowHeader>False</ShowHeader>
-      <ShowEnableButton>True</ShowEnableButton>
-      <Collapsed>False</Collapsed>
-      <Disabled>False</Disabled>
-      <Button Caption="START" ID="1625" Icon="">
-       <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4278233600</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="772"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="181" LowerValue="2"/>
-      </Button>
-      <Button Caption="DRUM INTRO (4)" ID="1626" Icon="">
-       <WindowState Visible="True" X="60" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4278190080</ForegroundColor>
-        <BackgroundColor>4294945280</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="773"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="4277" LowerValue="10"/>
-      </Button>
-      <Button Caption="BASS N GTR (4)" ID="1627" Icon="">
-       <WindowState Visible="True" X="110" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4278190080</ForegroundColor>
-        <BackgroundColor>4294945280</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="777"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="8373" LowerValue="10"/>
-      </Button>
-      <Button Caption="A1 (32)" ID="1628" Icon="">
-       <WindowState Visible="True" X="160" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4278190080</ForegroundColor>
-        <BackgroundColor>4294945280</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="778"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="12469" LowerValue="10"/>
-      </Button>
-      <Button Caption="BREAK (8)" ID="1629" Icon="">
-       <WindowState Visible="True" X="210" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4278190080</ForegroundColor>
-        <BackgroundColor>4294945280</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="779"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="16565" LowerValue="10"/>
-      </Button>
-      <Button Caption="BUILD (8)" ID="1630" Icon="">
-       <WindowState Visible="True" X="260" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4278190080</ForegroundColor>
-        <BackgroundColor>4294945280</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="780"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="20661" LowerValue="10"/>
-      </Button>
-      <Button Caption="A2 (24)" ID="1631" Icon="">
-       <WindowState Visible="True" X="310" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4278190080</ForegroundColor>
-        <BackgroundColor>4294945280</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="785"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="24757" LowerValue="10"/>
-      </Button>
-      <Button Caption="FINALE (8)" ID="1632" Icon="">
-       <WindowState Visible="True" X="360" Y="10" Width="50" Height="50"/>
-       <Appearance>
-        <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4278190080</ForegroundColor>
-        <BackgroundColor>4294945280</BackgroundColor>
-        <BackgroundImage>None</BackgroundImage>
-        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
-       </Appearance>
-       <Function ID="786"/>
-       <Action>Toggle</Action>
-       <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="28853" LowerValue="10"/>
-      </Button>
-      <Button Caption="NEXT" ID="1633" Icon="">
        <WindowState Visible="True" X="415" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -31897,7 +30928,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="210"/>
       </Button>
-      <Button Caption="9" ID="1634" Icon="">
+      <Button Caption="9" ID="1544" Icon="">
        <WindowState Visible="True" X="10" Y="60" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -31911,7 +30942,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="182"/>
       </Button>
-      <Button Caption="10" ID="1635" Icon="">
+      <Button Caption="10" ID="1545" Icon="">
        <WindowState Visible="True" X="60" Y="60" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -31925,7 +30956,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="4278"/>
       </Button>
-      <Button Caption="11" ID="1636" Icon="">
+      <Button Caption="11" ID="1546" Icon="">
        <WindowState Visible="True" X="110" Y="60" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -31939,7 +30970,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="8374"/>
       </Button>
-      <Button Caption="12" ID="1637" Icon="">
+      <Button Caption="12" ID="1547" Icon="">
        <WindowState Visible="True" X="160" Y="60" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -31953,7 +30984,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="12470"/>
       </Button>
-      <Button Caption="13" ID="1638" Icon="">
+      <Button Caption="13" ID="1548" Icon="">
        <WindowState Visible="True" X="210" Y="60" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -31967,7 +30998,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="16566"/>
       </Button>
-      <Button Caption="14" ID="1639" Icon="">
+      <Button Caption="14" ID="1549" Icon="">
        <WindowState Visible="True" X="260" Y="60" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -31981,7 +31012,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="20662"/>
       </Button>
-      <Button Caption="15" ID="1640" Icon="">
+      <Button Caption="15" ID="1550" Icon="">
        <WindowState Visible="True" X="310" Y="60" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -31995,7 +31026,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="24758"/>
       </Button>
-      <Button Caption="16" ID="1641" Icon="">
+      <Button Caption="16" ID="1551" Icon="">
        <WindowState Visible="True" X="360" Y="60" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32009,7 +31040,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="28854"/>
       </Button>
-      <Button Caption="PREV" ID="1642" Icon="">
+      <Button Caption="PREV" ID="1552" Icon="">
        <WindowState Visible="True" X="415" Y="60" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32023,7 +31054,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="211"/>
       </Button>
-      <Button Caption="17" ID="1643" Icon="">
+      <Button Caption="17" ID="1553" Icon="">
        <WindowState Visible="True" X="10" Y="110" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32037,7 +31068,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="183"/>
       </Button>
-      <Button Caption="18" ID="1644" Icon="">
+      <Button Caption="18" ID="1554" Icon="">
        <WindowState Visible="True" X="60" Y="110" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32051,7 +31082,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="4279"/>
       </Button>
-      <Button Caption="19" ID="1645" Icon="">
+      <Button Caption="19" ID="1555" Icon="">
        <WindowState Visible="True" X="110" Y="110" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32065,7 +31096,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="8375"/>
       </Button>
-      <Button Caption="20" ID="1646" Icon="">
+      <Button Caption="20" ID="1556" Icon="">
        <WindowState Visible="True" X="160" Y="110" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32079,7 +31110,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="12471"/>
       </Button>
-      <Button Caption="21" ID="1647" Icon="">
+      <Button Caption="21" ID="1557" Icon="">
        <WindowState Visible="True" X="210" Y="110" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32093,7 +31124,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="16567"/>
       </Button>
-      <Button Caption="22" ID="1648" Icon="">
+      <Button Caption="22" ID="1558" Icon="">
        <WindowState Visible="True" X="260" Y="110" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32107,7 +31138,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="20663"/>
       </Button>
-      <Button Caption="23" ID="1649" Icon="">
+      <Button Caption="23" ID="1559" Icon="">
        <WindowState Visible="True" X="310" Y="110" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32121,7 +31152,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="24759"/>
       </Button>
-      <Button Caption="24" ID="1650" Icon="">
+      <Button Caption="24" ID="1560" Icon="">
        <WindowState Visible="True" X="360" Y="110" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32135,7 +31166,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="28855"/>
       </Button>
-      <Button Caption="CRASH" ID="1651" Icon="">
+      <Button Caption="BUMP" ID="1561" Icon="">
        <WindowState Visible="True" X="10" Y="160" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32144,26 +31175,26 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="784"/>
+       <Function ID="808"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="184" LowerValue="10"/>
       </Button>
-      <Button Caption="BUMP" ID="1652" Icon="">
+      <Button Caption="26" ID="1562" Icon="">
        <WindowState Visible="True" X="60" Y="160" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4278190080</ForegroundColor>
-        <BackgroundColor>4294945280</BackgroundColor>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
         <BackgroundImage>None</BackgroundImage>
         <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="792"/>
+       <Function ID="396"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
-       <Input Universe="0" Channel="4280" LowerValue="10"/>
+       <Input Universe="0" Channel="4280"/>
       </Button>
-      <Button Caption="27" ID="1653" Icon="">
+      <Button Caption="27" ID="1563" Icon="">
        <WindowState Visible="True" X="110" Y="160" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32177,7 +31208,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="8376"/>
       </Button>
-      <Button Caption="28" ID="1654" Icon="">
+      <Button Caption="28" ID="1564" Icon="">
        <WindowState Visible="True" X="160" Y="160" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32191,7 +31222,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="12472"/>
       </Button>
-      <Button Caption="29" ID="1655" Icon="">
+      <Button Caption="29" ID="1565" Icon="">
        <WindowState Visible="True" X="210" Y="160" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32205,7 +31236,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="16568"/>
       </Button>
-      <Button Caption="30" ID="1656" Icon="">
+      <Button Caption="30" ID="1566" Icon="">
        <WindowState Visible="True" X="260" Y="160" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32219,7 +31250,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="20664"/>
       </Button>
-      <Button Caption="31" ID="1657" Icon="">
+      <Button Caption="31" ID="1567" Icon="">
        <WindowState Visible="True" X="310" Y="160" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32233,7 +31264,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="24760"/>
       </Button>
-      <Button Caption="32" ID="1658" Icon="">
+      <Button Caption="32" ID="1568" Icon="">
        <WindowState Visible="True" X="360" Y="160" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32247,7 +31278,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="28856"/>
       </Button>
-      <Button Caption="33" ID="1659" Icon="">
+      <Button Caption="33" ID="1569" Icon="">
        <WindowState Visible="True" X="10" Y="210" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32261,7 +31292,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="185"/>
       </Button>
-      <Button Caption="34" ID="1660" Icon="">
+      <Button Caption="34" ID="1570" Icon="">
        <WindowState Visible="True" X="60" Y="210" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32275,7 +31306,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="4281"/>
       </Button>
-      <Button Caption="35" ID="1661" Icon="">
+      <Button Caption="35" ID="1571" Icon="">
        <WindowState Visible="True" X="110" Y="210" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32289,7 +31320,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="8377"/>
       </Button>
-      <Button Caption="36" ID="1662" Icon="">
+      <Button Caption="36" ID="1572" Icon="">
        <WindowState Visible="True" X="160" Y="210" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32303,7 +31334,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="12473"/>
       </Button>
-      <Button Caption="37" ID="1663" Icon="">
+      <Button Caption="37" ID="1573" Icon="">
        <WindowState Visible="True" X="210" Y="210" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32317,7 +31348,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="16569"/>
       </Button>
-      <Button Caption="38" ID="1664" Icon="">
+      <Button Caption="38" ID="1574" Icon="">
        <WindowState Visible="True" X="260" Y="210" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32331,7 +31362,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="20665"/>
       </Button>
-      <Button Caption="39" ID="1665" Icon="">
+      <Button Caption="39" ID="1575" Icon="">
        <WindowState Visible="True" X="310" Y="210" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32345,7 +31376,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="24761"/>
       </Button>
-      <Button Caption="40" ID="1666" Icon="">
+      <Button Caption="40" ID="1576" Icon="">
        <WindowState Visible="True" X="360" Y="210" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32359,7 +31390,7 @@
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="28857"/>
       </Button>
-      <Button Caption="." ID="1667" Icon="">
+      <Button Caption="." ID="1577" Icon="">
        <WindowState Visible="True" X="415" Y="210" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -32374,12 +31405,12 @@
        <Input Universe="0" Channel="214" UpperValue="7"/>
       </Button>
      </Frame>
-     <Button Caption="-" ID="1679" Icon="">
+     <Button Caption="SHIMMER" ID="1589" Icon="">
       <WindowState Visible="True" X="20" Y="380" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundColor>4278233600</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
@@ -32388,21 +31419,21 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="178"/>
      </Button>
-     <Button Caption="SYNTH" ID="1680" Icon="">
+     <Button Caption="-" ID="1590" Icon="">
       <WindowState Visible="True" X="70" Y="380" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278233600</BackgroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="771"/>
+      <Function ID="432"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="4274" LowerValue="10"/>
+      <Input Universe="0" Channel="4274"/>
      </Button>
-     <Button Caption="-" ID="1681" Icon="">
+     <Button Caption="-" ID="1591" Icon="">
       <WindowState Visible="True" X="120" Y="380" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32416,21 +31447,21 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="8370"/>
      </Button>
-     <Button Caption="STROBE" ID="1682" Icon="">
+     <Button Caption="-" ID="1592" Icon="">
       <WindowState Visible="True" X="170" Y="380" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278233600</BackgroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="787"/>
+      <Function ID="434"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="12466" LowerValue="10"/>
+      <Input Universe="0" Channel="12466"/>
      </Button>
-     <Button Caption="-" ID="1683" Icon="">
+     <Button Caption="-" ID="1593" Icon="">
       <WindowState Visible="True" X="220" Y="380" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32444,7 +31475,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="16562"/>
      </Button>
-     <Button Caption="-" ID="1684" Icon="">
+     <Button Caption="-" ID="1594" Icon="">
       <WindowState Visible="True" X="270" Y="380" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32458,7 +31489,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="20658"/>
      </Button>
-     <Button Caption="-" ID="1685" Icon="">
+     <Button Caption="-" ID="1595" Icon="">
       <WindowState Visible="True" X="320" Y="380" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32472,7 +31503,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="24754"/>
      </Button>
-     <Button Caption="-" ID="1686" Icon="">
+     <Button Caption="-" ID="1596" Icon="">
       <WindowState Visible="True" X="370" Y="380" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32486,12 +31517,12 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="28850"/>
      </Button>
-     <Button Caption="-" ID="1687" Icon="">
+     <Button Caption="LOAD" ID="1597" Icon="">
       <WindowState Visible="True" X="20" Y="410" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundColor>4278190207</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
@@ -32500,21 +31531,21 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="177"/>
      </Button>
-     <Button Caption="LOAD" ID="1688" Icon="">
+     <Button Caption="-" ID="1598" Icon="">
       <WindowState Visible="True" X="70" Y="410" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278190207</BackgroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
       <Function ID="440"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="4273" LowerValue="10"/>
+      <Input Universe="0" Channel="4273"/>
      </Button>
-     <Button Caption="-" ID="1689" Icon="">
+     <Button Caption="-" ID="1599" Icon="">
       <WindowState Visible="True" X="120" Y="410" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32528,21 +31559,21 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="8369"/>
      </Button>
-     <Button Caption="LOAD" ID="1690" Icon="">
+     <Button Caption="-" ID="1600" Icon="">
       <WindowState Visible="True" X="170" Y="410" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278190207</BackgroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
       <Function ID="442"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
-      <Input Universe="0" Channel="12465" LowerValue="10"/>
+      <Input Universe="0" Channel="12465"/>
      </Button>
-     <Button Caption="-" ID="1691" Icon="">
+     <Button Caption="-" ID="1601" Icon="">
       <WindowState Visible="True" X="220" Y="410" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32556,7 +31587,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="16561"/>
      </Button>
-     <Button Caption="-" ID="1692" Icon="">
+     <Button Caption="-" ID="1602" Icon="">
       <WindowState Visible="True" X="270" Y="410" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32570,7 +31601,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="20657"/>
      </Button>
-     <Button Caption="-" ID="1693" Icon="">
+     <Button Caption="-" ID="1603" Icon="">
       <WindowState Visible="True" X="320" Y="410" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32584,7 +31615,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="24753"/>
      </Button>
-     <Button Caption="-" ID="1694" Icon="">
+     <Button Caption="-" ID="1604" Icon="">
       <WindowState Visible="True" X="370" Y="410" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32598,7 +31629,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="28849"/>
      </Button>
-     <Button Caption="-" ID="1695" Icon="">
+     <Button Caption="-" ID="1605" Icon="">
       <WindowState Visible="True" X="20" Y="440" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32612,7 +31643,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="176"/>
      </Button>
-     <Button Caption="-" ID="1696" Icon="">
+     <Button Caption="-" ID="1606" Icon="">
       <WindowState Visible="True" X="70" Y="440" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32626,7 +31657,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="4272"/>
      </Button>
-     <Button Caption="-" ID="1697" Icon="">
+     <Button Caption="-" ID="1607" Icon="">
       <WindowState Visible="True" X="120" Y="440" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32640,7 +31671,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="8368"/>
      </Button>
-     <Button Caption="-" ID="1698" Icon="">
+     <Button Caption="-" ID="1608" Icon="">
       <WindowState Visible="True" X="170" Y="440" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32654,7 +31685,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="12464"/>
      </Button>
-     <Button Caption="-" ID="1699" Icon="">
+     <Button Caption="-" ID="1609" Icon="">
       <WindowState Visible="True" X="220" Y="440" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32668,7 +31699,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="16560"/>
      </Button>
-     <Button Caption="-" ID="1700" Icon="">
+     <Button Caption="-" ID="1610" Icon="">
       <WindowState Visible="True" X="270" Y="440" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32682,7 +31713,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="20656"/>
      </Button>
-     <Button Caption="-" ID="1701" Icon="">
+     <Button Caption="-" ID="1611" Icon="">
       <WindowState Visible="True" X="320" Y="440" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32696,7 +31727,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="24752"/>
      </Button>
-     <Button Caption="-" ID="1702" Icon="">
+     <Button Caption="-" ID="1612" Icon="">
       <WindowState Visible="True" X="370" Y="440" Width="50" Height="25"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
@@ -32710,7 +31741,7 @@
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="28848"/>
      </Button>
-     <Slider Caption="STAR" ID="1703" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="-" ID="1613" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="70" Y="470" Width="50" Height="120"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -32723,10 +31754,10 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>771</Function>
+       <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="-" ID="1704" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="ALL" ID="1614" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="20" Y="470" Width="50" Height="120"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -32739,10 +31770,10 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>799</Function>
       </Playback>
      </Slider>
-     <Slider Caption="-" ID="1705" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="-" ID="1615" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="120" Y="470" Width="50" Height="120"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -32758,7 +31789,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="BAT" ID="1706" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="-" ID="1616" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="170" Y="470" Width="50" Height="120"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -32771,10 +31802,10 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>787</Function>
+       <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="-" ID="1707" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="-" ID="1617" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="220" Y="470" Width="50" Height="120"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -32790,7 +31821,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="-" ID="1708" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="-" ID="1618" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="270" Y="470" Width="50" Height="120"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -32806,7 +31837,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="-" ID="1709" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="-" ID="1619" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="320" Y="470" Width="50" Height="120"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -32822,7 +31853,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="-" ID="1710" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="-" ID="1620" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="370" Y="470" Width="50" Height="120"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -32838,7 +31869,7 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="GM" ID="1711" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="GM" ID="1621" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="425" Y="470" Width="50" Height="120"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
@@ -32854,8 +31885,1158 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <SpeedDial Caption="PAR" ID="1712">
+     <SpeedDial Caption="PAR" ID="1622">
       <WindowState Visible="True" X="425" Y="150" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4279834650</ForegroundColor>
+       <BackgroundColor>4294967295</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Visibility>4</Visibility>
+      <AbsoluteValue Minimum="0" Maximum="10000"/>
+      <Tap>
+       <Input Universe="0" Channel="212"/>
+      </Tap>
+      <Time>605</Time>
+      <Function FadeIn="0" FadeOut="6" Duration="6">802</Function>
+      <Function FadeIn="0" FadeOut="6" Duration="6">808</Function>
+      <Function FadeIn="0" FadeOut="6" Duration="6">805</Function>
+     </SpeedDial>
+     <SpeedDial Caption="PIXEL" ID="1623">
+      <WindowState Visible="True" X="425" Y="200" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4279834650</ForegroundColor>
+       <BackgroundColor>4294967295</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Visibility>4</Visibility>
+      <AbsoluteValue Minimum="0" Maximum="10000"/>
+      <Tap>
+       <Input Universe="0" Channel="213"/>
+      </Tap>
+      <Time>196</Time>
+      <Function FadeIn="6" FadeOut="6" Duration="6">799</Function>
+     </SpeedDial>
+    </Frame>
+    <Frame Caption="APC20" ID="1714" Page="17">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="False" X="0" Y="40" Width="490" Height="600"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Frame Caption="" ID="1668">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="False" X="10" Y="40" Width="470" Height="270"/>
+      <AllowChildren>False</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Button Caption="START" ID="1625" Icon="">
+       <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4278233600</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="772"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="181" LowerValue="2"/>
+      </Button>
+      <Button Caption="DRUM INTRO (4)" ID="1626" Icon="">
+       <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294945280</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="773"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="4277" LowerValue="10"/>
+      </Button>
+      <Button Caption="BASS N GTR (4)" ID="1627" Icon="">
+       <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294945280</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="777"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="8373" LowerValue="10"/>
+      </Button>
+      <Button Caption="A1 (32)" ID="1628" Icon="">
+       <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294945280</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="778"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="12469" LowerValue="10"/>
+      </Button>
+      <Button Caption="BREAK (8)" ID="1629" Icon="">
+       <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294945280</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="779"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="16565" LowerValue="10"/>
+      </Button>
+      <Button Caption="BUILD (8)" ID="1630" Icon="">
+       <WindowState Visible="False" X="260" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294945280</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="780"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="20661" LowerValue="10"/>
+      </Button>
+      <Button Caption="A2 (24)" ID="1631" Icon="">
+       <WindowState Visible="False" X="310" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294945280</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="785"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="24757" LowerValue="10"/>
+      </Button>
+      <Button Caption="FINALE (8)" ID="1632" Icon="">
+       <WindowState Visible="False" X="360" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294945280</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="786"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="28853" LowerValue="10"/>
+      </Button>
+      <Button Caption="NEXT" ID="1633" Icon="">
+       <WindowState Visible="False" X="415" Y="10" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="342"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="210"/>
+      </Button>
+      <Button Caption="9" ID="1634" Icon="">
+       <WindowState Visible="False" X="10" Y="60" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="375"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="182"/>
+      </Button>
+      <Button Caption="10" ID="1635" Icon="">
+       <WindowState Visible="False" X="60" Y="60" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="412"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="4278"/>
+      </Button>
+      <Button Caption="11" ID="1636" Icon="">
+       <WindowState Visible="False" X="110" Y="60" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="377"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="8374"/>
+      </Button>
+      <Button Caption="12" ID="1637" Icon="">
+       <WindowState Visible="False" X="160" Y="60" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="378"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="12470"/>
+      </Button>
+      <Button Caption="13" ID="1638" Icon="">
+       <WindowState Visible="False" X="210" Y="60" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="379"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="16566"/>
+      </Button>
+      <Button Caption="14" ID="1639" Icon="">
+       <WindowState Visible="False" X="260" Y="60" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="380"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="20662"/>
+      </Button>
+      <Button Caption="15" ID="1640" Icon="">
+       <WindowState Visible="False" X="310" Y="60" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="381"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="24758"/>
+      </Button>
+      <Button Caption="16" ID="1641" Icon="">
+       <WindowState Visible="False" X="360" Y="60" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="382"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="28854"/>
+      </Button>
+      <Button Caption="PREV" ID="1642" Icon="">
+       <WindowState Visible="False" X="415" Y="60" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="343"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="211"/>
+      </Button>
+      <Button Caption="17" ID="1643" Icon="">
+       <WindowState Visible="False" X="10" Y="110" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="384"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="183"/>
+      </Button>
+      <Button Caption="18" ID="1644" Icon="">
+       <WindowState Visible="False" X="60" Y="110" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="385"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="4279"/>
+      </Button>
+      <Button Caption="19" ID="1645" Icon="">
+       <WindowState Visible="False" X="110" Y="110" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="386"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="8375"/>
+      </Button>
+      <Button Caption="20" ID="1646" Icon="">
+       <WindowState Visible="False" X="160" Y="110" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="387"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="12471"/>
+      </Button>
+      <Button Caption="21" ID="1647" Icon="">
+       <WindowState Visible="False" X="210" Y="110" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="390"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="16567"/>
+      </Button>
+      <Button Caption="22" ID="1648" Icon="">
+       <WindowState Visible="False" X="260" Y="110" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="391"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="20663"/>
+      </Button>
+      <Button Caption="23" ID="1649" Icon="">
+       <WindowState Visible="False" X="310" Y="110" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="392"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="24759"/>
+      </Button>
+      <Button Caption="24" ID="1650" Icon="">
+       <WindowState Visible="False" X="360" Y="110" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="393"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="28855"/>
+      </Button>
+      <Button Caption="CRASH" ID="1651" Icon="">
+       <WindowState Visible="False" X="10" Y="160" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294945280</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="784"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="184" LowerValue="10"/>
+      </Button>
+      <Button Caption="BUMP" ID="1652" Icon="">
+       <WindowState Visible="False" X="60" Y="160" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294945280</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="792"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="4280" LowerValue="10"/>
+      </Button>
+      <Button Caption="27" ID="1653" Icon="">
+       <WindowState Visible="False" X="110" Y="160" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="397"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="8376"/>
+      </Button>
+      <Button Caption="28" ID="1654" Icon="">
+       <WindowState Visible="False" X="160" Y="160" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="398"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="12472"/>
+      </Button>
+      <Button Caption="29" ID="1655" Icon="">
+       <WindowState Visible="False" X="210" Y="160" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="399"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="16568"/>
+      </Button>
+      <Button Caption="30" ID="1656" Icon="">
+       <WindowState Visible="False" X="260" Y="160" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="413"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="20664"/>
+      </Button>
+      <Button Caption="31" ID="1657" Icon="">
+       <WindowState Visible="False" X="310" Y="160" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="401"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="24760"/>
+      </Button>
+      <Button Caption="32" ID="1658" Icon="">
+       <WindowState Visible="False" X="360" Y="160" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="400"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="28856"/>
+      </Button>
+      <Button Caption="33" ID="1659" Icon="">
+       <WindowState Visible="False" X="10" Y="210" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="402"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="185"/>
+      </Button>
+      <Button Caption="34" ID="1660" Icon="">
+       <WindowState Visible="False" X="60" Y="210" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="405"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="4281"/>
+      </Button>
+      <Button Caption="35" ID="1661" Icon="">
+       <WindowState Visible="False" X="110" Y="210" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="406"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="8377"/>
+      </Button>
+      <Button Caption="36" ID="1662" Icon="">
+       <WindowState Visible="False" X="160" Y="210" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="407"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="12473"/>
+      </Button>
+      <Button Caption="37" ID="1663" Icon="">
+       <WindowState Visible="False" X="210" Y="210" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="408"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="16569"/>
+      </Button>
+      <Button Caption="38" ID="1664" Icon="">
+       <WindowState Visible="False" X="260" Y="210" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="409"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="20665"/>
+      </Button>
+      <Button Caption="39" ID="1665" Icon="">
+       <WindowState Visible="False" X="310" Y="210" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="410"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="24761"/>
+      </Button>
+      <Button Caption="40" ID="1666" Icon="">
+       <WindowState Visible="False" X="360" Y="210" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="411"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="28857"/>
+      </Button>
+      <Button Caption="." ID="1667" Icon="">
+       <WindowState Visible="False" X="415" Y="210" Width="50" Height="50"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4282137660</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
+       </Appearance>
+       <Function ID="4294967295"/>
+       <Action>Blackout</Action>
+       <Intensity Adjust="False">100</Intensity>
+       <Input Universe="0" Channel="214" UpperValue="7"/>
+      </Button>
+     </Frame>
+     <Button Caption="-" ID="1679" Icon="">
+      <WindowState Visible="False" X="20" Y="380" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="364"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="178"/>
+     </Button>
+     <Button Caption="SYNTH" ID="1680" Icon="">
+      <WindowState Visible="False" X="70" Y="380" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4278233600</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="771"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="4274" LowerValue="10"/>
+     </Button>
+     <Button Caption="-" ID="1681" Icon="">
+      <WindowState Visible="False" X="120" Y="380" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="433"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="8370"/>
+     </Button>
+     <Button Caption="STROBE" ID="1682" Icon="">
+      <WindowState Visible="False" X="170" Y="380" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4278233600</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="787"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="12466" LowerValue="10"/>
+     </Button>
+     <Button Caption="-" ID="1683" Icon="">
+      <WindowState Visible="False" X="220" Y="380" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="435"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="16562"/>
+     </Button>
+     <Button Caption="-" ID="1684" Icon="">
+      <WindowState Visible="False" X="270" Y="380" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="436"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="20658"/>
+     </Button>
+     <Button Caption="-" ID="1685" Icon="">
+      <WindowState Visible="False" X="320" Y="380" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="437"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="24754"/>
+     </Button>
+     <Button Caption="-" ID="1686" Icon="">
+      <WindowState Visible="False" X="370" Y="380" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="438"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="28850"/>
+     </Button>
+     <Button Caption="-" ID="1687" Icon="">
+      <WindowState Visible="False" X="20" Y="410" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="439"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="177"/>
+     </Button>
+     <Button Caption="LOAD" ID="1688" Icon="">
+      <WindowState Visible="False" X="70" Y="410" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4278190207</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="440"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="4273" LowerValue="10"/>
+     </Button>
+     <Button Caption="-" ID="1689" Icon="">
+      <WindowState Visible="False" X="120" Y="410" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="441"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="8369"/>
+     </Button>
+     <Button Caption="LOAD" ID="1690" Icon="">
+      <WindowState Visible="False" X="170" Y="410" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4278190207</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="442"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="12465" LowerValue="10"/>
+     </Button>
+     <Button Caption="-" ID="1691" Icon="">
+      <WindowState Visible="False" X="220" Y="410" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="443"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="16561"/>
+     </Button>
+     <Button Caption="-" ID="1692" Icon="">
+      <WindowState Visible="False" X="270" Y="410" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="444"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="20657"/>
+     </Button>
+     <Button Caption="-" ID="1693" Icon="">
+      <WindowState Visible="False" X="320" Y="410" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="445"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="24753"/>
+     </Button>
+     <Button Caption="-" ID="1694" Icon="">
+      <WindowState Visible="False" X="370" Y="410" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="446"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="28849"/>
+     </Button>
+     <Button Caption="-" ID="1695" Icon="">
+      <WindowState Visible="False" X="20" Y="440" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="447"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="176"/>
+     </Button>
+     <Button Caption="-" ID="1696" Icon="">
+      <WindowState Visible="False" X="70" Y="440" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="448"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="4272"/>
+     </Button>
+     <Button Caption="-" ID="1697" Icon="">
+      <WindowState Visible="False" X="120" Y="440" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="449"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="8368"/>
+     </Button>
+     <Button Caption="-" ID="1698" Icon="">
+      <WindowState Visible="False" X="170" Y="440" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="450"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="12464"/>
+     </Button>
+     <Button Caption="-" ID="1699" Icon="">
+      <WindowState Visible="False" X="220" Y="440" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="451"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="16560"/>
+     </Button>
+     <Button Caption="-" ID="1700" Icon="">
+      <WindowState Visible="False" X="270" Y="440" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="452"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="20656"/>
+     </Button>
+     <Button Caption="-" ID="1701" Icon="">
+      <WindowState Visible="False" X="320" Y="440" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="454"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="24752"/>
+     </Button>
+     <Button Caption="-" ID="1702" Icon="">
+      <WindowState Visible="False" X="370" Y="440" Width="50" Height="25"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4282137660</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
+      </Appearance>
+      <Function ID="455"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+      <Input Universe="0" Channel="28848"/>
+     </Button>
+     <Slider Caption="STAR" ID="1703" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="70" Y="470" Width="50" Height="120"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
+      </Appearance>
+      <Input Universe="0" Channel="4103"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>771</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="-" ID="1704" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="20" Y="470" Width="50" Height="120"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
+      </Appearance>
+      <Input Universe="0" Channel="7"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="-" ID="1705" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="120" Y="470" Width="50" Height="120"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
+      </Appearance>
+      <Input Universe="0" Channel="8199"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="BAT" ID="1706" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="170" Y="470" Width="50" Height="120"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
+      </Appearance>
+      <Input Universe="0" Channel="12295"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>787</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="-" ID="1707" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="220" Y="470" Width="50" Height="120"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
+      </Appearance>
+      <Input Universe="0" Channel="16391"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="-" ID="1708" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="270" Y="470" Width="50" Height="120"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
+      </Appearance>
+      <Input Universe="0" Channel="20487"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="-" ID="1709" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="320" Y="470" Width="50" Height="120"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
+      </Appearance>
+      <Input Universe="0" Channel="24583"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="-" ID="1710" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="370" Y="470" Width="50" Height="120"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
+      </Appearance>
+      <Input Universe="0" Channel="28679"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <Slider Caption="GM" ID="1711" WidgetStyle="Slider" InvertedAppearance="false">
+      <WindowState Visible="False" X="425" Y="470" Width="50" Height="120"/>
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>4294901760</ForegroundColor>
+       <BackgroundColor>4278190080</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
+      </Appearance>
+      <Input Universe="0" Channel="14"/>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+      <Level LowLimit="0" HighLimit="255" Value="0"/>
+      <Playback>
+       <Function>4294967295</Function>
+      </Playback>
+     </Slider>
+     <SpeedDial Caption="PAR" ID="1712">
+      <WindowState Visible="False" X="425" Y="150" Width="50" Height="50"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4279834650</ForegroundColor>
@@ -32879,7 +33060,7 @@
       <Function FadeIn="0" FadeOut="1" Duration="7">765</Function>
      </SpeedDial>
      <SpeedDial Caption="PIXEL" ID="1713">
-      <WindowState Visible="True" X="425" Y="200" Width="50" Height="50"/>
+      <WindowState Visible="False" X="425" Y="200" Width="50" Height="50"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4279834650</ForegroundColor>
@@ -64491,7 +64672,7 @@
      </Control>
     </Matrix>
     <Matrix Caption="STAR SYNTH" ID="3641" Page="17">
-     <WindowState Visible="True" X="495" Y="40" Width="160" Height="120"/>
+     <WindowState Visible="False" X="495" Y="40" Width="160" Height="120"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4294967295</ForegroundColor>
@@ -64516,7 +64697,7 @@
      </Control>
     </Matrix>
     <Matrix Caption="WARM LEATH BAT STROBE" ID="3642" Page="17">
-     <WindowState Visible="True" X="495" Y="170" Width="160" Height="120"/>
+     <WindowState Visible="False" X="495" Y="170" Width="160" Height="120"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -64537,6 +64718,32 @@
      <Control ID="3">
       <Type>Animation</Type>
       <Resource>Random Row</Resource>
+     </Control>
+    </Matrix>
+    <Matrix Caption="MONKEY FIST SHIMMER ALL" ID="3643" Page="16">
+     <WindowState Visible="True" X="495" Y="40" Width="160" Height="115"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="799" InstantApply="true"/>
+     <Visibility>18</Visibility>
+     <Control ID="1">
+      <Type>StartColor</Type>
+      <Color>#ff0000</Color>
+     </Control>
+     <Control ID="2">
+      <Type>EndColor</Type>
+      <Color>#ff0000</Color>
+     </Control>
+     <Control ID="3">
+      <Type>Animation</Type>
+      <Resource>3D Starfield</Resource>
+      <Property Name="MultiColor">No</Property>
+      <Property Name="StarsAmount">100</Property>
      </Control>
     </Matrix>
    </Frame>
