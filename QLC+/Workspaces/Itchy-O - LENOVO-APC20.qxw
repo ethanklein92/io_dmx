@@ -8047,10 +8047,10 @@
    <MonoColor>4294901760</MonoColor>
    <EndColor>4278190080</EndColor>
    <FixtureGroup>10</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
-   <Property Name="tailfade" Value="Yes"/>
    <Property Name="taillength" Value="10"/>
    <Property Name="direction" Value="Right"/>
+   <Property Name="orientation" Value="Horizontal"/>
+   <Property Name="tailfade" Value="Yes"/>
   </Function>
   <Function ID="516" Type="Scene" Name="WFOOT CYM ALT 3" Path="SONGS/13 WITCH'S FOOT">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -8619,10 +8619,10 @@
    <MonoColor>4294901760</MonoColor>
    <EndColor>4294901760</EndColor>
    <FixtureGroup>9</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
-   <Property Name="tailfade" Value="Yes"/>
    <Property Name="taillength" Value="50"/>
    <Property Name="direction" Value="Right"/>
+   <Property Name="orientation" Value="Horizontal"/>
+   <Property Name="tailfade" Value="Yes"/>
   </Function>
   <Function ID="559" Type="RGBMatrix" Name="GALLOWS BAT STROBE" Path="SONGS/04 GALLOWS">
    <Speed FadeIn="0" FadeOut="0" Duration="27"/>
@@ -8643,9 +8643,9 @@
    <MonoColor>4294967295</MonoColor>
    <EndColor>4294967295</EndColor>
    <FixtureGroup>10</FixtureGroup>
+   <Property Name="presetCollision" Value="No"/>
    <Property Name="presetSize" Value="1"/>
    <Property Name="presetRandom" Value="No"/>
-   <Property Name="presetCollision" Value="No"/>
    <Property Name="presetNumber" Value="50"/>
   </Function>
   <Function ID="561" Type="RGBMatrix" Name="MERK STAR SHIMMER" Path="SONGS/05 MERKABAH">
@@ -10588,7 +10588,7 @@
    <FixtureVal ID="6">0,255,3,127</FixtureVal>
   </Function>
   <Function ID="691" Type="RGBMatrix" Name="MYST ALL WAVES" Path="SONGS/15 MYST">
-   <Speed FadeIn="210" FadeOut="210" Duration="105"/>
+   <Speed FadeIn="287" FadeOut="287" Duration="143"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Vertical fall</Algorithm>
@@ -10609,13 +10609,11 @@
    <Command>startfunction%3A690%20%2F%2F%20MYST%20STAR%20BG</Command>
    <Command>startfunction%3A691%20%2F%2F%20MYST%20ALL%20WAVES</Command>
    <Command>startfunction%3A689%20%2F%2F%20MYST%20NODE%20BG</Command>
-   <Command>startfunction%3A697%20%2F%2F%20MYST%20NODE%20CRAWL%20ALT</Command>
-   <Command>startfunction%3A698%20%2F%2F%20MYST%20CRAWL%20STAR</Command>
    <Command></Command>
    <Command>wait%3A5m</Command>
   </Function>
   <Function ID="693" Type="RGBMatrix" Name="MYST NOISE WALL STROBE" Path="SONGS/15 MYST">
-   <Speed FadeIn="0" FadeOut="0" Duration="52"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="71"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Random Row</Algorithm>
@@ -10668,7 +10666,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">695</Step>
   </Function>
   <Function ID="698" Type="RGBMatrix" Name="MYST CRAWL STAR" Path="SONGS/15 MYST">
-   <Speed FadeIn="210" FadeOut="210" Duration="210"/>
+   <Speed FadeIn="287" FadeOut="287" Duration="287"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm Type="Script">Waves</Algorithm>
@@ -10676,23 +10674,25 @@
    <MonoColor>4278190335</MonoColor>
    <EndColor>4278255615</EndColor>
    <FixtureGroup>9</FixtureGroup>
-   <Property Name="orientation" Value="Horizontal"/>
-   <Property Name="tailfade" Value="Yes"/>
    <Property Name="taillength" Value="75"/>
    <Property Name="direction" Value="Right"/>
+   <Property Name="orientation" Value="Horizontal"/>
+   <Property Name="tailfade" Value="Yes"/>
   </Function>
-  <Function ID="699" Type="Script" Name="03 FINALE" Path="SONGS/15 MYSTRABIA">
+  <Function ID="699" Type="Script" Name="03 CRAWL" Path="SONGS/15 MYSTRABIA">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Command>%2F%2F%20CLEAR%20</Command>
-   <Command>stopfunction%3A688%20%2F%2F%2001%20DUB</Command>
+   <Command>stopfunction%3A692%20%2F%2F%2002%20NOISE%20WALL</Command>
    <Command>wait%3A10ms</Command>
    <Command></Command>
    <Command>%2F%2F%20START%20SCRIPT</Command>
    <Command>startfunction%3A690%20%2F%2F%20MYST%20STAR%20BG</Command>
+   <Command>startfunction%3A691%20%2F%2F%20MYST%20ALL%20WAVES</Command>
    <Command>startfunction%3A689%20%2F%2F%20MYST%20NODE%20BG</Command>
    <Command>startfunction%3A698%20%2F%2F%20MYST%20CRAWL%20STAR</Command>
+   <Command>startfunction%3A697%20%2F%2F%20MYST%20NODE%20CRAWL%20ALT</Command>
    <Command>wait%3A5m</Command>
   </Function>
   <Function ID="700" Type="Script" Name="00 START" Path="SONGS/09 DANCE OF ANUNNAKI">
@@ -11260,7 +11260,7 @@
    <FixtureVal ID="21">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
   </Function>
   <Function ID="743" Type="Chaser" Name="WILD MTN A ALT" Path="SONGS/10 WILD MTN">
-   <Speed FadeIn="0" FadeOut="510" Duration="1020"/>
+   <Speed FadeIn="0" FadeOut="543" Duration="1086"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Common" Duration="Common"/>
@@ -11276,7 +11276,7 @@
    <Command>wait%3A10ms</Command>
    <Command></Command>
    <Command>%2F%2F%20START%20SCRIPT</Command>
-   <Command>startfunction%3A758%20%2F%2F%20WILD%20MTN%20RED%20BUMP</Command>
+   <Command>startfunction%3A749%20%2F%2F%20WHIT%20HIT</Command>
    <Command>startfunction%3A736%20%2F%2F%20WILD%20MOUNTAIN%20NODE%20BG</Command>
    <Command>startfunction%3A737%20%2F%2F%20WILD%20MOUNTAIN%20STAR%20BG</Command>
    <Command>startfunction%3A743%20%2F%2F%20WILD%20MTN%20A%20ALT</Command>
@@ -11300,7 +11300,7 @@
    <Command>wait%3A5m</Command>
   </Function>
   <Function ID="746" Type="Chaser" Name="WILD MTN HIT WHITE BAT" Path="SONGS/10 WILD MTN">
-   <Speed FadeIn="0" FadeOut="510" Duration="510"/>
+   <Speed FadeIn="0" FadeOut="543" Duration="543"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="PerStep" FadeOut="Common" Duration="PerStep"/>
@@ -11308,7 +11308,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="693">303</Step>
   </Function>
   <Function ID="747" Type="Chaser" Name="WILD MTN HIT WHITE CYM" Path="SONGS/10 WILD MTN">
-   <Speed FadeIn="0" FadeOut="510" Duration="510"/>
+   <Speed FadeIn="0" FadeOut="543" Duration="543"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="PerStep" FadeOut="Common" Duration="PerStep"/>
@@ -11316,7 +11316,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="693">294</Step>
   </Function>
   <Function ID="748" Type="Chaser" Name="WILD MTN HIT WHITE STAR" Path="SONGS/10 WILD MTN">
-   <Speed FadeIn="0" FadeOut="510" Duration="510"/>
+   <Speed FadeIn="0" FadeOut="543" Duration="543"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="PerStep" FadeOut="Common" Duration="PerStep"/>
@@ -11337,6 +11337,7 @@
    <Command>wait%3A10ms</Command>
    <Command></Command>
    <Command>%2F%2F%20START%20SCRIPT</Command>
+   <Command>startfunction%3A749%20%2F%2F%20WHIT%20HIT</Command>
    <Command>startfunction%3A736%20%2F%2F%20WILD%20MOUNTAIN%20NODE%20BG</Command>
    <Command>startfunction%3A737%20%2F%2F%20WILD%20MOUNTAIN%20STAR%20BG</Command>
    <Command>startfunction%3A743%20%2F%2F%20WILD%20MTN%20A%20ALT</Command>
@@ -11370,10 +11371,10 @@
    <FixtureVal ID="21">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
   </Function>
   <Function ID="753" Type="Chaser" Name="WILD MTN B ALT" Path="SONGS/10 WILD MTN">
-   <Speed FadeIn="0" FadeOut="510" Duration="2040"/>
+   <Speed FadeIn="0" FadeOut="543" Duration="2172"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
-   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <SpeedModes FadeIn="Default" FadeOut="Common" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">751</Step>
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">752</Step>
   </Function>
@@ -11402,6 +11403,7 @@
    <Command>wait%3A10ms</Command>
    <Command></Command>
    <Command>%2F%2F%20START%20SCRIPT</Command>
+   <Command>startfunction%3A749%20%2F%2F%20WHIT%20HIT</Command>
    <Command>startfunction%3A736%20%2F%2F%20WILD%20MOUNTAIN%20NODE%20BG</Command>
    <Command>startfunction%3A737%20%2F%2F%20WILD%20MOUNTAIN%20STAR%20BG</Command>
    <Command>startfunction%3A743%20%2F%2F%20WILD%20MTN%20A%20ALT</Command>
@@ -11441,7 +11443,7 @@
    <Command>wait%3A5m</Command>
   </Function>
   <Function ID="758" Type="Chaser" Name="WILD MTN RED BUMP" Path="SONGS/10 WILD MTN">
-   <Speed FadeIn="0" FadeOut="554" Duration="554"/>
+   <Speed FadeIn="0" FadeOut="543" Duration="543"/>
    <Direction>Forward</Direction>
    <RunOrder>SingleShot</RunOrder>
    <SpeedModes FadeIn="PerStep" FadeOut="Common" Duration="PerStep"/>
@@ -11472,29 +11474,43 @@
    <FixtureVal ID="20">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
    <FixtureVal ID="21">1,255,4,255,7,255,10,255,13,255,16,255,19,255,22,255,25,255,28,255,31,255,34,255,37,255,40,255,43,255,46,255,49,255,52,255,55,255,58,255,61,255,64,255,67,255,70,255,73,255,76,255,79,255,82,255,85,255,88,255,91,255,94,255,97,255,100,255,103,255,106,255,109,255,112,255,115,255,118,255,121,255,124,255,127,255,130,255,133,255,136,255,139,255,142,255,145,255,148,255,151,255,154,255,157,255,160,255,163,255,166,255,169,255,172,255,175,255,178,255,181,255,184,255,187,255,190,255,193,255,196,255,199,255,202,255,205,255,208,255,211,255,214,255,217,255,220,255,223,255,226,255,229,255,232,255,235,255,238,255,241,255,244,255,247,255,250,255,253,255,256,255,259,255,262,255,265,255,268,255</FixtureVal>
   </Function>
+  <Function ID="760" Type="Script" Name="04 FINALE" Path="SONGS/15 MYSTRABIA">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Command>%2F%2F%20CLEAR%20</Command>
+   <Command>stopfunction%3A699%20%2F%2F%2003%20CRAWL</Command>
+   <Command>wait%3A10ms</Command>
+   <Command></Command>
+   <Command>%2F%2F%20START%20SCRIPT</Command>
+   <Command>startfunction%3A690%20%2F%2F%20MYST%20STAR%20BG</Command>
+   <Command>startfunction%3A689%20%2F%2F%20MYST%20NODE%20BG</Command>
+   <Command>startfunction%3A698%20%2F%2F%20MYST%20CRAWL%20STAR</Command>
+   <Command>wait%3A5m</Command>
+  </Function>
   <Monitor DisplayMode="1" ShowLabels="0">
    <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
    <ChannelStyle>0</ChannelStyle>
    <ValueStyle>0</ValueStyle>
    <Grid Width="7" Height="10" Depth="8" Units="0"/>
-   <FxItem ID="11" XPos="3050" YPos="2036"/>
-   <FxItem ID="8" XPos="5600" YPos="0"/>
-   <FxItem ID="9" XPos="5500" YPos="2000"/>
-   <FxItem ID="20" XPos="2500" YPos="5000"/>
    <FxItem ID="21" XPos="1500" YPos="3500" Rotation="270"/>
+   <FxItem ID="20" XPos="2500" YPos="5000"/>
    <FxItem ID="18" XPos="1000" YPos="2000"/>
    <FxItem ID="16" XPos="1000" YPos="5000"/>
-   <FxItem ID="6" XPos="6700" YPos="1000"/>
    <FxItem ID="7" XPos="1000" YPos="0"/>
-   <FxItem ID="4" XPos="4700" YPos="1000"/>
+   <FxItem ID="6" XPos="6700" YPos="1000"/>
    <FxItem ID="5" XPos="5700" YPos="1000"/>
-   <FxItem ID="2" XPos="2000" YPos="1000"/>
+   <FxItem ID="4" XPos="4700" YPos="1000"/>
    <FxItem ID="3" XPos="3330" YPos="1000"/>
-   <FxItem ID="0" XPos="0" YPos="1000"/>
+   <FxItem ID="2" XPos="2000" YPos="1000"/>
    <FxItem ID="1" XPos="1000" YPos="1000"/>
+   <FxItem ID="0" XPos="0" YPos="1000"/>
    <FxItem ID="14" XPos="5500" YPos="5000"/>
-   <FxItem ID="12" XPos="4500" YPos="3500" Rotation="90"/>
    <FxItem ID="13" XPos="3500" YPos="5000"/>
+   <FxItem ID="12" XPos="4500" YPos="3500" Rotation="90"/>
+   <FxItem ID="11" XPos="3050" YPos="2036"/>
+   <FxItem ID="9" XPos="5500" YPos="2000"/>
+   <FxItem ID="8" XPos="5600" YPos="0"/>
   </Monitor>
  </Engine>
  <VirtualConsole>
@@ -13775,10 +13791,10 @@
        <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>515</Function>
       </Playback>
      </Slider>
      <Slider Caption="CYM" ID="135" WidgetStyle="Slider" InvertedAppearance="false">
@@ -14918,7 +14934,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>556</Function>
       </Playback>
      </Slider>
      <Slider Caption="ALL" ID="261" WidgetStyle="Slider" InvertedAppearance="false">
@@ -15108,7 +15124,6 @@
      </Appearance>
      <Function ID="556" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="135175"/>
      <Control ID="9">
       <Type>EndColor</Type>
       <Color>#fc4507</Color>
@@ -15137,7 +15152,6 @@
      </Appearance>
      <Function ID="515" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="65543"/>
      <Control ID="4">
       <Type>StartColor</Type>
       <Color>#ff0000</Color>
@@ -15151,10 +15165,10 @@
      <Control ID="6">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
-      <Property Name="orientation">Horizontal</Property>
-      <Property Name="tailfade">Yes</Property>
       <Property Name="taillength">10</Property>
       <Property Name="direction">Right</Property>
+      <Property Name="orientation">Horizontal</Property>
+      <Property Name="tailfade">Yes</Property>
       <Input Universe="0" Channel="65713"/>
      </Control>
     </Matrix>
@@ -16126,7 +16140,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>557</Function>
       </Playback>
      </Slider>
      <Slider Caption="ALL" ID="444" WidgetStyle="Slider" InvertedAppearance="false">
@@ -17308,7 +17322,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>558</Function>
       </Playback>
      </Slider>
      <Slider Caption="ALL" ID="534" WidgetStyle="Slider" InvertedAppearance="false">
@@ -17356,7 +17370,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>559</Function>
       </Playback>
      </Slider>
      <Slider Caption="MICRO" ID="537" WidgetStyle="Slider" InvertedAppearance="false">
@@ -18455,7 +18469,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>561</Function>
       </Playback>
      </Slider>
      <Slider Caption="ALL" ID="624" WidgetStyle="Slider" InvertedAppearance="false">
@@ -18471,7 +18485,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>560</Function>
       </Playback>
      </Slider>
      <Slider Caption="CYM" ID="625" WidgetStyle="Slider" InvertedAppearance="false">
@@ -18503,7 +18517,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>563</Function>
       </Playback>
      </Slider>
      <Slider Caption="MICRO" ID="627" WidgetStyle="Slider" InvertedAppearance="false">
@@ -18532,10 +18546,10 @@
        <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
-      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>562</Function>
       </Playback>
      </Slider>
      <Slider Caption="-" ID="629" WidgetStyle="Slider" InvertedAppearance="false">
@@ -19633,7 +19647,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>564</Function>
       </Playback>
      </Slider>
      <Slider Caption="ALL" ID="714" WidgetStyle="Slider" InvertedAppearance="false">
@@ -19665,7 +19679,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>565</Function>
       </Playback>
      </Slider>
      <Slider Caption="CYM" ID="716" WidgetStyle="Slider" InvertedAppearance="false">
@@ -20792,7 +20806,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>566</Function>
       </Playback>
      </Slider>
      <Slider Caption="ALL" ID="804" WidgetStyle="Slider" InvertedAppearance="false">
@@ -20808,7 +20822,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>567</Function>
       </Playback>
      </Slider>
      <Slider Caption="CYM" ID="805" WidgetStyle="Slider" InvertedAppearance="false">
@@ -20824,7 +20838,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>570</Function>
       </Playback>
      </Slider>
      <Slider Caption="BAT" ID="806" WidgetStyle="Slider" InvertedAppearance="false">
@@ -20840,7 +20854,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>571</Function>
       </Playback>
      </Slider>
      <Slider Caption="MICRO" ID="807" WidgetStyle="Slider" InvertedAppearance="false">
@@ -20872,7 +20886,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>574</Function>
       </Playback>
      </Slider>
      <Slider Caption="-" ID="809" WidgetStyle="Slider" InvertedAppearance="false">
@@ -21988,7 +22002,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>709</Function>
       </Playback>
      </Slider>
      <Slider Caption="BAT" ID="896" WidgetStyle="Slider" InvertedAppearance="false">
@@ -22004,7 +22018,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>708</Function>
       </Playback>
      </Slider>
      <Slider Caption="-" ID="897" WidgetStyle="Slider" InvertedAppearance="false">
@@ -22543,8 +22557,8 @@
        <WindowState Visible="True" X="60" Y="160" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
-        <ForegroundColor>4294967295</ForegroundColor>
-        <BackgroundColor>4282137660</BackgroundColor>
+        <ForegroundColor>4278190080</ForegroundColor>
+        <BackgroundColor>4294945280</BackgroundColor>
         <BackgroundImage>None</BackgroundImage>
         <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
@@ -23107,7 +23121,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="4103"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -23116,20 +23130,20 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="-" ID="984" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="ALL" ID="984" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="True" X="20" Y="470" Width="50" Height="120"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>738</Function>
       </Playback>
      </Slider>
      <Slider Caption="-" ID="985" WidgetStyle="Slider" InvertedAppearance="false">
@@ -23139,7 +23153,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="8199"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -23155,7 +23169,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="12295"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -23171,7 +23185,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="16391"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -23187,7 +23201,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -23203,7 +23217,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="24583"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -23219,7 +23233,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="28679"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -23235,7 +23249,7 @@
        <ForegroundColor>4294901760</ForegroundColor>
        <BackgroundColor>4278190080</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -23258,7 +23272,7 @@
       <Tap>
        <Input Universe="0" Channel="212"/>
       </Tap>
-      <Time>510</Time>
+      <Time>543</Time>
       <Function FadeIn="0" FadeOut="6" Duration="6">758</Function>
       <Function FadeIn="0" FadeOut="6" Duration="6">748</Function>
       <Function FadeIn="0" FadeOut="6" Duration="6">747</Function>
@@ -24266,7 +24280,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>620</Function>
       </Playback>
      </Slider>
      <Slider Caption="ALL" ID="1074" WidgetStyle="Slider" InvertedAppearance="false">
@@ -24314,7 +24328,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>614</Function>
       </Playback>
      </Slider>
      <Slider Caption="MICRO" ID="1077" WidgetStyle="Slider" InvertedAppearance="false">
@@ -25426,7 +25440,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>679</Function>
       </Playback>
      </Slider>
      <Slider Caption="-" ID="1164" WidgetStyle="Slider" InvertedAppearance="false">
@@ -25474,7 +25488,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>680</Function>
       </Playback>
      </Slider>
      <Slider Caption="-" ID="1167" WidgetStyle="Slider" InvertedAppearance="false">
@@ -26579,7 +26593,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="4103"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -26595,7 +26609,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -26611,7 +26625,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="8199"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -26627,7 +26641,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="12295"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -26643,7 +26657,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="16391"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -26659,7 +26673,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -26668,14 +26682,14 @@
        <Function>4294967295</Function>
       </Playback>
      </Slider>
-     <Slider Caption="STROBE" ID="1259" WidgetStyle="Slider" InvertedAppearance="false">
+     <Slider Caption="STR OBE" ID="1259" WidgetStyle="Slider" InvertedAppearance="false">
       <WindowState Visible="False" X="320" Y="470" Width="50" Height="120"/>
       <Appearance>
        <FrameStyle>Sunken</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="24583"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
@@ -26699,7 +26713,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="28679"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -26715,7 +26729,7 @@
        <ForegroundColor>4294901760</ForegroundColor>
        <BackgroundColor>4278190080</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -27739,7 +27753,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="4103"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -27755,7 +27769,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -27771,7 +27785,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="8199"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -27787,7 +27801,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="12295"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -27803,7 +27817,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="16391"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -27819,7 +27833,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -27835,7 +27849,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="24583"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -27851,7 +27865,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="28679"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -27867,7 +27881,7 @@
        <ForegroundColor>4294901760</ForegroundColor>
        <BackgroundColor>4278190080</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -27976,12 +27990,12 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="368"/>
+       <Function ID="692"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="8373" LowerValue="10"/>
       </Button>
-      <Button Caption="CRAWL (99)" ID="1358" Icon="">
+      <Button Caption="CRAWL (65)" ID="1358" Icon="">
        <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
        <Appearance>
         <FrameStyle>None</FrameStyle>
@@ -27990,7 +28004,7 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="369"/>
+       <Function ID="699"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="12469" LowerValue="10"/>
@@ -28004,7 +28018,7 @@
         <BackgroundImage>None</BackgroundImage>
         <Font>MS Shell Dlg 2,10,-1,5,75,0,0,0,0,0</Font>
        </Appearance>
-       <Function ID="699"/>
+       <Function ID="760"/>
        <Action>Toggle</Action>
        <Intensity Adjust="False">100</Intensity>
        <Input Universe="0" Channel="16565" LowerValue="10"/>
@@ -28547,11 +28561,11 @@
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278190207</BackgroundColor>
+       <BackgroundColor>4278233600</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="364"/>
+      <Function ID="691"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="178" LowerValue="10"/>
@@ -28561,11 +28575,11 @@
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278190207</BackgroundColor>
+       <BackgroundColor>4278233600</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="432"/>
+      <Function ID="698"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="4274" LowerValue="10"/>
@@ -28617,11 +28631,11 @@
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278190207</BackgroundColor>
+       <BackgroundColor>4278233600</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="436"/>
+      <Function ID="694"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="20658" LowerValue="10"/>
@@ -28631,11 +28645,11 @@
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278190207</BackgroundColor>
+       <BackgroundColor>4278233600</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="437"/>
+      <Function ID="693"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
       <Input Universe="0" Channel="24754" LowerValue="10"/>
@@ -28659,7 +28673,7 @@
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278233600</BackgroundColor>
+       <BackgroundColor>4278190207</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
@@ -28673,7 +28687,7 @@
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278233600</BackgroundColor>
+       <BackgroundColor>4278190207</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
@@ -28729,7 +28743,7 @@
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278233600</BackgroundColor>
+       <BackgroundColor>4278190207</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
@@ -28743,7 +28757,7 @@
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>4294967295</ForegroundColor>
-       <BackgroundColor>4278233600</BackgroundColor>
+       <BackgroundColor>4278190207</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
        <Font>MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0</Font>
       </Appearance>
@@ -28891,7 +28905,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>698</Function>
       </Playback>
      </Slider>
      <Slider Caption="ALL" ID="1434" WidgetStyle="Slider" InvertedAppearance="false">
@@ -28907,7 +28921,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>691</Function>
       </Playback>
      </Slider>
      <Slider Caption="-" ID="1435" WidgetStyle="Slider" InvertedAppearance="false">
@@ -28971,7 +28985,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>694</Function>
       </Playback>
      </Slider>
      <Slider Caption="ALL" ID="1439" WidgetStyle="Slider" InvertedAppearance="false">
@@ -28987,7 +29001,7 @@
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
       <Level LowLimit="0" HighLimit="255" Value="0"/>
       <Playback>
-       <Function>4294967295</Function>
+       <Function>693</Function>
       </Playback>
      </Slider>
      <Slider Caption="-" ID="1440" WidgetStyle="Slider" InvertedAppearance="false">
@@ -29056,7 +29070,7 @@
       <Tap>
        <Input Universe="0" Channel="213"/>
       </Tap>
-      <Time>210</Time>
+      <Time>287</Time>
       <Function FadeIn="1" FadeOut="1" Duration="4">693</Function>
       <Function FadeIn="6" FadeOut="6" Duration="6">698</Function>
       <Function FadeIn="6" FadeOut="6" Duration="5">691</Function>
@@ -30038,7 +30052,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="4103"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -30054,7 +30068,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -30070,7 +30084,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="8199"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -30086,7 +30100,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="12295"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -30102,7 +30116,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="16391"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -30118,7 +30132,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -30134,7 +30148,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="24583"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -30150,7 +30164,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="28679"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -30166,7 +30180,7 @@
        <ForegroundColor>4294901760</ForegroundColor>
        <BackgroundColor>4278190080</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -31184,7 +31198,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="4103"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -31200,7 +31214,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -31216,7 +31230,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="8199"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -31232,7 +31246,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="12295"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -31248,7 +31262,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="16391"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -31264,7 +31278,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -31280,7 +31294,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="24583"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -31296,7 +31310,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="28679"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -31312,7 +31326,7 @@
        <ForegroundColor>4294901760</ForegroundColor>
        <BackgroundColor>4278190080</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -32330,7 +32344,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="4103"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -32346,7 +32360,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -32362,7 +32376,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="8199"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -32378,7 +32392,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="12295"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -32394,7 +32408,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="16391"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -32410,7 +32424,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -32426,7 +32440,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="24583"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -32442,7 +32456,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="28679"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -32458,7 +32472,7 @@
        <ForegroundColor>4294901760</ForegroundColor>
        <BackgroundColor>4278190080</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -33476,7 +33490,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="4103"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -33492,7 +33506,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -33508,7 +33522,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="8199"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -33524,7 +33538,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="12295"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -33540,7 +33554,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="16391"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -33556,7 +33570,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -33572,7 +33586,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="24583"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -33588,7 +33602,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="28679"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -33604,7 +33618,7 @@
        <ForegroundColor>4294901760</ForegroundColor>
        <BackgroundColor>4278190080</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -34622,7 +34636,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="4103"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -34638,7 +34652,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -34654,7 +34668,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="8199"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -34670,7 +34684,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="12295"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -34686,7 +34700,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="16391"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -34702,7 +34716,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -34718,7 +34732,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="24583"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -34734,7 +34748,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="28679"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -34750,7 +34764,7 @@
        <ForegroundColor>4294901760</ForegroundColor>
        <BackgroundColor>4278190080</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -35768,7 +35782,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="4103"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -35784,7 +35798,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -35800,7 +35814,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="8199"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -35816,7 +35830,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="12295"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -35832,7 +35846,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="16391"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -35848,7 +35862,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -35864,7 +35878,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="24583"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -35880,7 +35894,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="28679"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -35896,7 +35910,7 @@
        <ForegroundColor>4294901760</ForegroundColor>
        <BackgroundColor>4278190080</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -36914,7 +36928,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="4103"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -36930,7 +36944,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -36946,7 +36960,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="8199"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -36962,7 +36976,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="12295"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -36978,7 +36992,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="16391"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -36994,7 +37008,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -37010,7 +37024,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="24583"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -37026,7 +37040,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="28679"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -37042,7 +37056,7 @@
        <ForegroundColor>4294901760</ForegroundColor>
        <BackgroundColor>4278190080</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -38060,7 +38074,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="4103"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -38076,7 +38090,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="7"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -38092,7 +38106,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="8199"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -38108,7 +38122,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="12295"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -38124,7 +38138,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="16391"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -38140,7 +38154,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="20487"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -38156,7 +38170,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="24583"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -38172,7 +38186,7 @@
        <ForegroundColor>4294967295</ForegroundColor>
        <BackgroundColor>Default</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="28679"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -38188,7 +38202,7 @@
        <ForegroundColor>4294901760</ForegroundColor>
        <BackgroundColor>4278190080</BackgroundColor>
        <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
+       <Font>.SF NS Text,9,-1,5,50,0,0,0,0,0</Font>
       </Appearance>
       <Input Universe="0" Channel="14"/>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
@@ -38241,7 +38255,6 @@
      </Appearance>
      <Function ID="557" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="200711"/>
      <Control ID="5">
       <Type>StartColor</Type>
       <Color>#f8ff0a</Color>
@@ -38270,7 +38283,6 @@
      </Appearance>
      <Function ID="558" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="266247"/>
      <Control ID="1">
       <Type>StartColor</Type>
       <Color>#ff0000</Color>
@@ -38284,10 +38296,10 @@
      <Control ID="5">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
-      <Property Name="orientation">Horizontal</Property>
-      <Property Name="tailfade">Yes</Property>
       <Property Name="taillength">50</Property>
       <Property Name="direction">Right</Property>
+      <Property Name="orientation">Horizontal</Property>
+      <Property Name="tailfade">Yes</Property>
       <Input Universe="0" Channel="266417"/>
      </Control>
     </Matrix>
@@ -38302,7 +38314,6 @@
      </Appearance>
      <Function ID="560" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="327687"/>
      <Control ID="4">
       <Type>StartColor</Type>
       <Color>#ffffff</Color>
@@ -38316,9 +38327,9 @@
      <Control ID="14">
       <Type>Animation</Type>
       <Resource>Balls</Resource>
+      <Property Name="presetCollision">No</Property>
       <Property Name="presetSize">1</Property>
       <Property Name="presetRandom">No</Property>
-      <Property Name="presetCollision">No</Property>
       <Property Name="presetNumber">50</Property>
       <Input Universe="0" Channel="327857"/>
      </Control>
@@ -38334,7 +38345,6 @@
      </Appearance>
      <Function ID="561" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="331783"/>
      <Control ID="6">
       <Type>StartColor</Type>
       <Color>#ffffff</Color>
@@ -63574,7 +63584,6 @@
      </Appearance>
      <Function ID="564" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="397319"/>
      <Control ID="1">
       <Type>StartColor</Type>
       <Color>#ffffff</Color>
@@ -63602,7 +63611,6 @@
      </Appearance>
      <Function ID="565" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="401415"/>
      <Control ID="1">
       <Type>StartColor</Type>
       <Color>#ffff00</Color>
@@ -63631,7 +63639,6 @@
      </Appearance>
      <Function ID="566" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="462855"/>
      <Control ID="1">
       <Type>StartColor</Type>
       <Color>#ffff00</Color>
@@ -63661,7 +63668,6 @@
      </Appearance>
      <Function ID="567" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="458759"/>
      <Control ID="1">
       <Type>StartColor</Type>
       <Color>#ff0000</Color>
@@ -63689,7 +63695,6 @@
      </Appearance>
      <Function ID="562" InstantApply="true"/>
      <Visibility>3</Visibility>
-     <Input Universe="0" Channel="348167"/>
     </Matrix>
     <Matrix Caption="BAT STROBE" ID="146" Page="5">
      <WindowState Visible="False" X="500" Y="425" Width="160" Height="120"/>
@@ -63702,7 +63707,6 @@
      </Appearance>
      <Function ID="563" InstantApply="true"/>
      <Visibility>19</Visibility>
-     <Input Universe="0" Channel="339975"/>
      <Control ID="1">
       <Type>StartColor</Type>
       <Color>#ffffff</Color>
@@ -63730,7 +63734,6 @@
      </Appearance>
      <Function ID="559" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="274439"/>
      <Control ID="1">
       <Type>StartColor</Type>
       <Color>#ffffff</Color>
@@ -63758,7 +63761,6 @@
      </Appearance>
      <Function ID="570" InstantApply="true"/>
      <Visibility>0</Visibility>
-     <Input Universe="0" Channel="466951"/>
      <Control ID="6">
       <Type>Animation</Type>
       <Resource>Random Pixel Per Row Multicolor</Resource>
@@ -63776,7 +63778,6 @@
      </Appearance>
      <Function ID="571" InstantApply="true"/>
      <Visibility>0</Visibility>
-     <Input Universe="0" Channel="471047"/>
      <Control ID="2">
       <Type>Animation</Type>
       <Resource>Random Pixel Per Row Multicolor</Resource>
@@ -63794,7 +63795,6 @@
      </Appearance>
      <Function ID="573" InstantApply="true"/>
      <Visibility>0</Visibility>
-     <Input Universe="0" Channel="466951"/>
      <Control ID="1">
       <Type>Animation</Type>
       <Resource>Random Pixel Per Row Multicolor</Resource>
@@ -63811,7 +63811,6 @@
      </Appearance>
      <Function ID="572" InstantApply="true"/>
      <Visibility>0</Visibility>
-     <Input Universe="0" Channel="471047"/>
      <Control ID="1">
       <Type>Animation</Type>
       <Resource>Random Pixel Per Row Multicolor</Resource>
@@ -63828,7 +63827,6 @@
      </Appearance>
      <Function ID="574" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="479239"/>
      <Control ID="1">
       <Type>StartColor</Type>
       <Color>#ffffff</Color>
@@ -63856,7 +63854,6 @@
      </Appearance>
      <Function ID="620" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="659463"/>
      <Control ID="1">
       <Type>StartColor</Type>
       <Color>#00ff00</Color>
@@ -63885,7 +63882,6 @@
      </Appearance>
      <Function ID="614" InstantApply="true"/>
      <Visibility>18</Visibility>
-     <Input Universe="0" Channel="667655"/>
      <Control ID="4">
       <Type>StartColor</Type>
       <Color>#ffdc00</Color>
@@ -63985,7 +63981,7 @@
       <Font>Default</Font>
      </Appearance>
      <Function ID="693" InstantApply="true"/>
-     <Visibility>19</Visibility>
+     <Visibility>18</Visibility>
      <Control ID="1">
       <Type>StartColor</Type>
       <Color>#ffffff</Color>
@@ -64009,7 +64005,7 @@
       <Font>Default</Font>
      </Appearance>
      <Function ID="694" InstantApply="true"/>
-     <Visibility>19</Visibility>
+     <Visibility>18</Visibility>
     </Matrix>
     <Matrix Caption="CRAWL STAR" ID="3637" Page="14">
      <WindowState Visible="False" X="495" Y="425" Width="160" Height="120"/>
@@ -64033,10 +64029,10 @@
      <Control ID="6">
       <Type>Animation</Type>
       <Resource>Waves</Resource>
-      <Property Name="orientation">Horizontal</Property>
-      <Property Name="tailfade">Yes</Property>
       <Property Name="taillength">75</Property>
       <Property Name="direction">Right</Property>
+      <Property Name="orientation">Horizontal</Property>
+      <Property Name="tailfade">Yes</Property>
      </Control>
     </Matrix>
     <Matrix Caption="BAT STROBE" ID="3638" Page="8">
