@@ -7,7 +7,7 @@
   <Author>Ethan.Klein</Author>
  </Creator>
  <Manufacturer>Itchy-O</Manufacturer>
- <Model>Battery_Strip</Model>
+ <Model>Macrobe_Strip</Model>
  <Type>Color Changer</Type>
  <Channel Name="Green 1">
   <Group Byte="0">Intensity</Group>
@@ -1509,8 +1509,7 @@
   <Colour>Blue</Colour>
   <Capability Min="0" Max="255"></Capability>
  </Channel>
-
-  <Channel Name="Green 101">
+ <Channel Name="Green 101">
   <Group Byte="0">Intensity</Group>
   <Colour>Green</Colour>
   <Capability Min="0" Max="255"></Capability>
@@ -2020,7 +2019,7 @@
   <Colour>Blue</Colour>
   <Capability Min="0" Max="255"></Capability>
  </Channel>
-<Channel Name="Green 134">
+ <Channel Name="Green 134">
   <Group Byte="0">Intensity</Group>
   <Colour>Green</Colour>
   <Capability Min="0" Max="255"></Capability>
@@ -2278,7 +2277,7 @@
  <Mode Name="Normal">
   <Physical>
    <Bulb Type="" Lumens="0" ColourTemperature="0"/>
-   <Dimensions Weight="0" Width="1" Height="150" Depth="0"/>
+   <Dimensions Weight="0" Width="4000" Height="240" Depth="0"/>
    <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
    <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
    <Technical PowerConsumption="0" DmxConnector="Other"/>
